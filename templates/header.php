@@ -22,18 +22,19 @@
 </head>
 <body>
     <div class="wrapper clearfix" role="main">
-		<header>
-			<img class="logo"></img>
-			<form >
+		<header class="clearfix">
+			
+			<form class="search-form clearfix">
 				<input type="text" class="search-bar" name="search" placeholder="Enter your serach..." >
-				<input type="submit">
+				<input type="submit" class="search-button" value="">
 			</form>
-			<nav>
-			<ul>
-				<li class="menu-item"><a href="index.php">Home</a></li>
-				<li class="menu-item"><a href="about.php">About</a></li>
-				<li class="menu-item"><a href="blog.php">Blog</a></li>
-				<li class="menu-item"><a href="contacts.php">Contact</a></li>
+			<div class="logo"></div>
+			<nav  class="navigation-bar">
+			<ul class="clearfix">
+				<li class="menu-item"><a href="index.php">HOME</a></li>
+				<li class="menu-item"><a href="about.php">ABOUT</a></li>
+				<li class="menu-item active"><a href="blog.php">BLOG</a></li>
+				<li class="menu-item"><a href="contacts.php">CONTACT</a></li>
 			</ul>
 			</nav>
 		</header>
