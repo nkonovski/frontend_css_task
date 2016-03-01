@@ -31,10 +31,10 @@
 			<div class="logo"></div>
 			<nav  class="navigation-bar">
 			<ul class="clearfix">
-				<li class="menu-item"><a href="index.php">HOME</a></li>
-				<li class="menu-item"><a href="about.php">ABOUT</a></li>
-				<li class="menu-item active"><a href="blog.php">BLOG</a></li>
-				<li class="menu-item"><a href="contacts.php">CONTACT</a></li>
+				<li class="menu-item <?php echo $active[0]; ?>"><a href="index.php">HOME</a></li>
+				<li class="menu-item <?php echo $active[1]; ?>"><a href="about.php">ABOUT</a></li>
+				<li class="menu-item <?php echo $active[2]; ?>"><a href="blog.php">BLOG</a></li>
+				<li class="menu-item <?php echo $active[3]; ?>"><a href="contacts.php">CONTACT</a></li>
 			</ul>
 			</nav>
 		</header>
