@@ -11,6 +11,27 @@ input{
 	border: 1px solid #ededed;
 	color:#d8d8d8;
 }
+textarea{
+	width: 500px;
+	height: 210px;
+	border: 1px solid #ededed;
+	color:#d8d8d8;
+}
+input[placeholder], [placeholder], *[placeholder] {
+	font-family: "HelveticaNeue";
+    font-size: 12px;
+    padding-left: 12px; 
+    color: #dbdbdb;
+}
+textarea[placeholder]{
+	 padding-top: 7px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    font-family: "HelveticaNeue";
+    font-size: 12px;
+    padding-left: 3px;
+    color: #dbdbdb;
+}
 
 .wrapper {
 	width: 960px;
@@ -18,6 +39,20 @@ input{
 	padding-right: 10px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: "Chunkfive";
+	font-weight: unset;
+}
+p {
+	font-family: "HelveticaNeue Medium";
+	font-size: 12px;
+	color: #464646;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	margin-top: 30px;
 }
 /*Header section */
 header{
@@ -69,7 +104,6 @@ header{
 	border-top: 1px solid #f03c3c;
 }
 
-
 .search-form{
 	float: right;
 	margin-top: 30px;
@@ -81,4 +115,172 @@ header{
 	border: 0px;
 	margin-right: 1px;
 
+}
+
+/*Home Page*/
+
+
+
+/*About page*/
+.about-img{
+	background-image: url("../img/about.png");
+	width: 212px;
+	height: 211px;
+	float: left;
+	margin-right: 40px;
+}
+
+.big-red-capital {
+	float: left;
+	font-family: "HelveticaNeue";
+	font-size: 26px;
+	font-weight: bold;
+	color: red;
+	margin-top: 12px;
+	margin-right: 5px;
+}
+.very-big-font{
+	font-size: 52px;
+	font-weight: 200;
+	margin-top: 0px;
+}
+
+blockquote {
+	font-family: "HelveticaNeue Light";
+	font-size: 12px;
+	font-style: italic;
+	color: #464646;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	margin-bottom: 2px;
+}
+
+.column{
+	display: block;
+	float: left;
+}
+.col-2{
+	margin-top: 20px;
+	margin-right: 4%;
+	width: 48%;
+}
+.col-3{
+	margin-top: 20px;
+	margin-right: 2%;
+	width: 32%;
+}
+.last-col{
+	margin-right: 0;
+}
+
+.button-container{
+
+}
+
+/*Contact page*/
+#map-canvas{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.contact-form input, .contact-form textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-form input::-moz-placeholder, /*FF*/
+.contact-form input:-moz-placeholder {  
+    font-family: "HelveticaNeue";
+    font-size: 12px;
+    padding-left: 12px;
+    color: #dbdbdb;
+}
+
+.contact-form input[type="submit"]{
+	width: 80px;
+	height: 20px;
+	background-image: url("../img/submit.png");
+	border: 0px;
+}
+
+/*Buttons and Alert messages*/
+.button-green, .button-grey, .button-blue, .button-orange,
+.button-purple, .button-red, .button-ligh-blue{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 35px;
+	font-family: "HelveticaNeue";
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 10px;
+}
+.button-green{
+	background-color: #8caf2f;
+	background-image: linear-gradient(#96b435, #789e27);
+}
+.button-grey{
+	background-color: #d6d6d6;
+	background-image: linear-gradient(#d6d6d6, #cbcbcb);
+}
+.button-blue{
+	background-color: #77adf8;
+	background-image: linear-gradient(#77adf8, #5d96f6);
+}
+.button-orange{
+	background-color: #f78249;
+	background-image: linear-gradient(#f78249, #f56539);
+}
+.button-purple{
+	background-color: #f379f1;
+	background-image: linear-gradient(#f379f1, #ef5ded);
+}
+.button-red{
+	background-color: #fa5b5b;
+	background-image: linear-gradient(#fa5b5b, #f84747);
+}
+.button-ligh-blue{
+	background-color: #6de4eb;
+	background-image: linear-gradient(#6de4eb, #55dce5);
+}
+
+.green-alert, .red-alert, .yellow-alert, .blue-alert{
+	height: 62px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 62px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: "HelveticaNeue Light";
+	font-size: 14;
+	font-weight: bold;
+	font-style: italic;
+}
+.green-alert{
+	background-color: #effeb9;
+	color: #98c601;
+	border: 1px solid #98c601;
+}
+.red-alert{
+	background-color: #fbcbc1;
+	color: #eb5439;
+	border: 1px solid #eb5439;
+}
+.yellow-alert{
+	background-color: #ffe9ad;
+	color: #fab418;
+	border: 1px solid #fab418;
+}.blue-alert{
+	background-color: #d1e4f3;
+	color: #76a9d7;
+	border: 1px solid #76a9d7;
+}
+
+/*Footer*/
+footer {
+	margin-top: 40px;
 }
