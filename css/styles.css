@@ -118,8 +118,31 @@ header{
 }
 
 /*Home Page*/
+.col-2{
+	margin-top: 5px;
+	margin-right: 4%;
+	width: 48%;
+	float: left;
+}
+.col-3{
+	margin-top: 5px;
+	margin-right: 2%;
+	width: 32%;
+	float: left;
+}
+.col-4{
+	margin-top: 5px;
+	margin-right: 1.33%;
+	width: 24%;
+	float: left;
+}
+.last-col{
+	margin-right: 0;
+}
 
-
+.slider-small{
+	height: 75px;
+}
 
 /*About page*/
 .about-img{
@@ -154,22 +177,19 @@ blockquote {
 	margin-bottom: 2px;
 }
 
-.column{
+p.column{
 	display: block;
 	float: left;
 }
-.col-2{
+p.col-2{
 	margin-top: 20px;
 	margin-right: 4%;
 	width: 48%;
 }
-.col-3{
+p.col-3{
 	margin-top: 20px;
 	margin-right: 2%;
 	width: 32%;
-}
-.last-col{
-	margin-right: 0;
 }
 
 .button-container{
