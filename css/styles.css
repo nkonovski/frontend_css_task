@@ -192,6 +192,10 @@ p.col-3{
 	width: 32%;
 }
 
+p.last-col{
+	margin-right: 0;
+}
+
 .button-container{
 
 }
