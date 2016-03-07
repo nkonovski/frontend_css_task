@@ -196,10 +196,6 @@ p.last-col{
 	margin-right: 0;
 }
 
-.button-container{
-
-}
-
 /*Contact page*/
 #map-canvas{
 	margin-top: 30px;
@@ -280,7 +276,7 @@ p.last-col{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	font-family: "HelveticaNeue Light";
-	font-size: 14;
+	font-size: 14px;
 	font-weight: bold;
 	font-style: italic;
 }
