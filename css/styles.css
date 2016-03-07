@@ -174,7 +174,7 @@ blockquote {
 	font-style: italic;
 	color: #464646;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 }
 
 p.column{
